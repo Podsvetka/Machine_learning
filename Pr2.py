@@ -14,7 +14,6 @@ matrix = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 print("\nМатриця:")
 print(matrix)
 
-#Завдання 3
 # Створення нульової матриці розміром (4, 5)
 zero_matrix = np.zeros((4, 5))
 
@@ -22,7 +21,6 @@ zero_matrix = np.zeros((4, 5))
 print("\nНульова матриця:")
 print(zero_matrix)
 
-#Завдання 4
 # Створення одиничної матриці розміром (3, 3)
 identity_matrix = np.identity(3)
 
@@ -30,8 +28,20 @@ identity_matrix = np.identity(3)
 print("\nОдинична матриця:")
 print(identity_matrix)
 
-#Завдання 5
 # Виведення розміру матриці
 print("\nРозмір матриці:", matrix.shape)
 
+# Створення матриць A і B
+A = np.array([[1, 2, 3], [4, 5, 6]])
+B = np.array([[-1, -2, -3], [-4, -5, -6]])
+
+# Операції додавання і віднімання для матриць A і B
+addition_result = A + B
+subtraction_result = A - B
+
+# Виведення результатів
+print("\nСума матриць A і B:")
+print(addition_result)
+print("\nРізниця матриць A і B:")
+print(subtraction_result)
 
