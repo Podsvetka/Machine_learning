@@ -22,4 +22,12 @@ zero_matrix = np.zeros((4, 5))
 print("\nНульова матриця:")
 print(zero_matrix)
 
+#Завдання 4
+# Створення одиничної матриці розміром (3, 3)
+identity_matrix = np.identity(3)
+
+# Виведення одиничної матриці
+print("\nОдинична матриця:")
+print(identity_matrix)
+
 
