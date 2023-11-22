@@ -11,3 +11,8 @@ def equation_of_line(point1, point2):
     equation = f"{a}x + {b}y = {c}"
 
     return equation
+
+pointA = (3, 2)
+pointB = (5, 7)
+result_equation = equation_of_line(pointA, pointB)
+print(result_equation)
