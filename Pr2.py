@@ -51,3 +51,11 @@ elementwise_multiply_result = A * B
 # Виведення результату
 print("\nПоелементне множення матриць A і B:")
 print(elementwise_multiply_result)
+
+# Додавання константи b=2 до матриці A
+b = 2
+A_plus_b = A + b
+
+# Виведення результату
+print("\nМатриця A плюс константа b:")
+print(A_plus_b)
