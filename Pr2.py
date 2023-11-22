@@ -59,3 +59,14 @@ A_plus_b = A + b
 # Виведення результату
 print("\nМатриця A плюс константа b:")
 print(A_plus_b)
+
+# Створення матриць
+A = np.array([[1, 2, 3], [4, 5, 6]])
+B = np.array([[1, 1], [1, 1], [1, 1]])
+
+# Множення матриці A на матрицю B
+matrix_multiply_result = np.dot(A, B)
+
+# Виведення результату
+print("\nМноження матриці A на матрицю B:")
+print(matrix_multiply_result)
