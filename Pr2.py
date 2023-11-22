@@ -30,4 +30,8 @@ identity_matrix = np.identity(3)
 print("\nОдинична матриця:")
 print(identity_matrix)
 
+#Завдання 5
+# Виведення розміру матриці
+print("\nРозмір матриці:", matrix.shape)
+
 
