@@ -45,3 +45,9 @@ print(addition_result)
 print("\nРізниця матриць A і B:")
 print(subtraction_result)
 
+# Поелементне множення матриць A і B
+elementwise_multiply_result = A * B
+
+# Виведення результату
+print("\nПоелементне множення матриць A і B:")
+print(elementwise_multiply_result)
