@@ -70,3 +70,15 @@ matrix_multiply_result = np.dot(A, B)
 # Виведення результату
 print("\nМноження матриці A на матрицю B:")
 print(matrix_multiply_result)
+
+# Створення векторів
+v = np.array([1, 2, 3])
+u = np.array([1, 1, 1])
+
+# Знаходження Евклідової норми
+norm_v = np.linalg.norm(v)
+norm_u = np.linalg.norm(u)
+
+# Виведення результату
+print("\nЕвклідова норма вектора v:", norm_v)
+print("Евклідова норма вектора u:", norm_u)
